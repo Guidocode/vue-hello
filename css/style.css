@@ -12,5 +12,11 @@
 }
 
 .size{
-  font-size: 10vw;
+  font-size: 8vw;
+}
+
+.gatsbyStyle{
+  width: 40%;
+  box-shadow: 0 0 10px rgb(62, 10, 10);
+  border-radius: 10px;
 }

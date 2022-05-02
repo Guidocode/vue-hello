@@ -11,11 +11,14 @@ let app = new Vue({
   el: '#app',
 
   data: {
-    message: 'Hello',
+    message: 'Hello, old sport!',
     color: 'white',
     weight: 'bold', 
     size: 'size',
-  }
+    gatsby: 'gatsbyStyle',
+    image: './img/Il-grande-Gatsby-The-Great-Gatsby-2013-Baz-Luhrmann-18.jpg'
+  },
+
 })
 
 
