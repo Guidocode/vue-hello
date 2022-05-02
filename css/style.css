@@ -1,0 +1,16 @@
+#app{
+  height: 100vh;
+  background-color: rgba(165, 42, 42, 0.593);
+}
+
+.white{
+  color: white;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.size{
+  font-size: 10vw;
+}
