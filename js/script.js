@@ -16,11 +16,17 @@ let app = new Vue({
     weight: 'bold', 
     size: 'size',
     gatsby: 'gatsbyStyle',
-    image: './img/Il-grande-Gatsby-The-Great-Gatsby-2013-Baz-Luhrmann-18.jpg'
+    image: './img/Il-grande-Gatsby-The-Great-Gatsby-2013-Baz-Luhrmann-18.jpg',
+    myBtn: 'gb-btn',
+    displayBlock: 'display-block',
+    displayNone: 'display-none',
+    isBlock: false
   },
 
+  methods: {
+    showContent(){
+      this.isBlock = !this.isBlock
+    }
+  }
+
 })
-
-
-
-

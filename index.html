@@ -22,10 +22,17 @@
 <body>
   
 
-  <div class="d-flex justify-content-center align-items-center flex-column" id="app">
-    <h1 :class="[color, weight, size]">{{message}}</h1>
+  <div class="text-center py-5" id="app">
 
-    <img :class="gatsby" :src="image" alt="">
+    <h2 class="mb-4 text-uppercase">Clicca il bottone per vedere o nascondere il contenuto</h2>
+    <button @click="showContent()" type="button" :class="myBtn" class="btn btn-dark">Toggle content</button>
+
+    <div :class="isBlock ? 'display-block' : 'display-none'" class="content">
+      <h1 :class="[color, weight, size]">{{message}}</h1>
+
+      <img :class="gatsby" :src="image" alt="">
+    </div>
+    
   </div>
 
 

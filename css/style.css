@@ -20,3 +20,17 @@
   box-shadow: 0 0 10px rgb(62, 10, 10);
   border-radius: 10px;
 }
+
+.gb-btn{
+  font-size: 2vw;
+  box-shadow: 0 5px 10px black;
+  text-transform: uppercase;
+}
+
+.display-block{
+  display: block;
+}
+
+.display-none{
+  display: none;
+}
