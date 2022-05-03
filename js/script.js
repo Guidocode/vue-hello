@@ -20,7 +20,7 @@ let app = new Vue({
     myBtn: 'gb-btn',
     displayBlock: 'display-block',
     displayNone: 'display-none',
-    isBlock: false
+    isBlock: true
   },
 
   methods: {

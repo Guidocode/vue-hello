@@ -27,7 +27,7 @@
     <h2 class="mb-4 text-uppercase">Clicca il bottone per vedere o nascondere il contenuto</h2>
     <button @click="showContent()" type="button" :class="myBtn" class="btn btn-dark">Toggle content</button>
 
-    <div :class="isBlock ? 'display-block' : 'display-none'" class="content">
+    <div :class="isBlock ? 'display-none' : 'display-block' " class="content">
       <h1 :class="[color, weight, size]">{{message}}</h1>
 
       <img :class="gatsby" :src="image" alt="">
